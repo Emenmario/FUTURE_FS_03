@@ -1,18 +1,16 @@
-# GYM_CRM // PERN_STACK
+# React + Vite
 
-### SYSTEM_OVERVIEW
-A high-contrast, brutalist management terminal for modern fitness facilities. Built for Addis Ababa University Information Systems Dept.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### TECH_SPEC
-- **Frontend:** React + Tailwind + Lucide
-- **Backend:** Node.js + Express
-- **Database:** PostgreSQL
-- **Security:** JWT + Bcrypt Hashing
+Currently, two official plugins are available:
 
-### KEY_FEATURES
-- [x] STAFF_ENROLLMENT_GATEWAY
-- [x] MEMBER_TENURE_TRACKING (LOYALTY_LOGS)
-- [x] TRANSACTION_VERIFICATION_BUFFER
-- [x] AUTO_EXPIRY_DETECTION (IS_EXPIRING_LOGIC)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### STATUS: READY_FOR_DEPLOYMENT
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
